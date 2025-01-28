@@ -30,7 +30,6 @@ sns.set_theme(context='notebook',
               font='Lucida Calligraphy',
               font_scale=1.5,
               rc=None)
-import matplotlib
 matplotlib.rcParams['figure.figsize'] = [8, 8]
 matplotlib.rcParams.update({'font.size': 15})
 matplotlib.rcParams['font.family'] = 'sans-serif'

@@ -5,6 +5,8 @@
 
 <br/>
 
+### Import List
+
 ```python
 
 # Basic Setting
@@ -63,9 +65,24 @@ print(data)
 
 <br/>
 
-
+### Data EDA
 
 ```python
+df = pd.read_csv("")
+
+
+
+# 기본 통계량
+df.describe()
+
+# 결측치 확인
+df.isnull().sum()
+
+# 유니크한 값 개수 확인
+df['category_column'].unique()
+
+# 빈도수 확인
+df['category_column'].value_counts()
 
 
 
